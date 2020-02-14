@@ -9,55 +9,34 @@ Every fish you eat will become a cat claw to attack the Boss "Bickey Mouse".
 **Catch it after it becomes the smallest state!**
 
 ## Getting Started
+Press "SPACE" key to start
+![start](images/start.png)
 
+## Interface
+**The main game UI**
+![main](images/main.png)
 
-## Prerequisites
-What things you need to install the software and how to install them
+**Attack to the boss**
+![attack](images/claw-attack.png)
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+**Time to catch the mouse**
+![catch](images/catch-mouse.png)
 
-Say what the step will be
+**Win**
+![win](images/win.png)
 
-Give the example
-And repeat
+**Lose**
+![lose](images/lose.png)
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+## Built With
+[Processing](https://github.com/processing/processing) - a flexible software sketchbook and a language for learning how to code within the context of the visual arts.
 
-Running the tests
-Explain how to run the automated tests for this system
+## Deployment
+Tell me if you have some ideas to make it more interesting, or lighten the system.
 
-Break down into end to end tests
-Explain what these tests test and why
+## Author
+codenew0
 
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
-
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+## License
+The MIT License (MIT)
+Copyright (c) 2020 codenew0
