@@ -1,9 +1,29 @@
+/*
+  Drop CLASS:
+  -----------
+  A drop is deformed by r filled circles.
+  Only a background, no actual role.
+  
+  VARIABLES:
+  ----------
+  x, y:         drop's position
+  speed:        drop's droping speed
+  c:            drop's color
+  r:            how many circles defrom a drop
+  
+  FUNCTION:
+  ---------
+  move:           move drop to another position
+  reachedBottom:  judge if a drop is reaching the bottom of window
+  display:        show a drop
+*/
 class Drop {
   float x, y;
   float speed;
   color c;
   float r;
   
+  // A drop is produced from the top by random "x"
   Drop() {
     r = 5;
     x = random(width);

@@ -1,3 +1,24 @@
+/*
+  StarRain CLASS:
+  -----------
+  Controll all stars to start, stop, restart
+  
+  VARIABLES:
+  ----------
+  frequency:    stars' falling frequency
+  timer:        controll the falling quantity of drops by frequency
+  stars:        an array to store all stars. For removing easily
+  isStop:       check if the rain has stopped
+  
+  FUNCTION:
+  ---------
+  start:          start "star raining"
+  stop:           stop "star raining"
+  restart:        restart "star raining"  after stopping
+  setTime:        change the frequency of occurrence of stars
+  isCollided:     check if player is hit by star
+  removeClicked:  the star will be removed if click it
+*/
 class StarRain {
   int frequency;
   Timer timer;
@@ -9,10 +30,6 @@ class StarRain {
     stars = new ArrayList<Star>();
     timer = new Timer(frequency);
     isStop = false;
-  }
-  
-  void init() {
-    timer.start();
   }
   
   void start() {

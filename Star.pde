@@ -1,3 +1,29 @@
+/*
+  Star CLASS:
+  -----------
+  Draw a star.
+  Controll all drops to start, stop, restart
+  
+  VARIABLES:
+  ----------
+  x, y:         star's position
+  w:            star's width(from center to vertex)
+  speed:        star's moving speed
+  direction:    star's moving direction
+  theta:        star can rotaing by itself, controll the rotating speed
+  point:        ten points to conform a star
+  line_p:       a reference to calculate the lines easily which are following the star
+  c:            color of star
+  
+  FUNCTION:
+  ---------
+  reachedBottom:  check if star has reached bottom
+  isCollided:     check if star hit player
+  move:           move star to another position
+  display:        show star
+  setPosition:    set star's position (mouse)
+  stick:          mouse's display
+*/
 class Star {
   float x, y;
   float w;

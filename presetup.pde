@@ -1,3 +1,17 @@
+void setupObjects() {
+  star_freq = 500;
+  setupIcon();
+  setupFont();
+  setupPlayer();
+  setupFishes();
+  setupClaws();
+  setupBoss();
+  setupStars();
+  setupRain();
+  setupCursor();
+  setupTimer();
+}
+
 void setupFont() {
   font = createFont("Arial", 16, true);
   text_x = width;

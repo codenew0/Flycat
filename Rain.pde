@@ -1,3 +1,22 @@
+/*
+  Rain CLASS:
+  -----------
+  Rain is deformed by drops.
+  Controll all drops to start, stop, restart
+  
+  VARIABLES:
+  ----------
+  frequency:    drops' falling frequency
+  timer:        controll the falling quantity of drops by frequency
+  drops:        an array to store all drops. For removing easily
+  isStop:       check if the rain has stopped
+  
+  FUNCTION:
+  ---------
+  start:          start raining
+  stop:           stop raining
+  restart:        restart raining after stopping
+*/
 class Rain {
   int frequency;
   Timer timer;
@@ -10,9 +29,7 @@ class Rain {
     timer = new Timer(frequency);
     isStop = false;
   }
-  void init() {
-    timer.start();
-  }
+  
   void start() {
     if (isStop) {
       return ;

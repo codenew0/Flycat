@@ -1,3 +1,22 @@
+/*
+  Claw CLASS:
+  -----------
+  A skill of player will be released while player ate a fish.
+  The skill is always aiming to boss, and hit it to reduce its life.
+  
+  VARIABLES:
+  ----------
+  img:          claw image
+  x, y:         claw image's position
+  speed:        claw's moving speed
+  theta:        the theta from release position(player) to boss's position.
+  
+  FUNCTION:
+  ---------
+  lockTarget:   calculate the theta of object
+  isHitted:     judge if boss is hit by claw
+  display:      show claw
+*/
 class Claw {
   PImage img;
   float x, y;

@@ -1,3 +1,19 @@
+/*
+  Fish CLASS:
+  -----------
+  A fish is produced randomly. When it is eaten by player, a skill will be released.
+  
+  VARIABLES:
+  ----------
+  img:          fish's image
+  x, y:         fish's position
+  w:            fish image's width
+  
+  FUNCTION:
+  ---------
+  isCatched:    if fish is catched by player.
+  display:      show a fish
+*/
 class Fish {
   float x, y, w;
   PImage img;
